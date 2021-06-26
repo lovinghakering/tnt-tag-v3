@@ -1,0 +1,62 @@
+ServerIP: "Configure Server IP in config!"
+
+SQL:
+  Host: "localhost"
+  Port: "3306"
+  Database: "main"
+  Username: "qnko2"
+  Password: "BezdomenBezdomnik123$"
+
+Permissions:
+  DropItems: true
+  Hunger: true
+  PlaceBlocks: true
+  BreakBlocks: true
+  AnimalSpawn: true
+
+HubLocation:
+  World: "world"
+  X: 0.5
+  Y: 64.0
+  Z: 0.5
+  Yaw: -45.0
+  Pitch: 0.0
+
+Arenas:
+  Permissions:
+    DropItems: false
+    Hunger: false
+    PlaceBlocks: false
+    BreakBlocks: false
+    AnimalSpawn: false
+  Arena1:
+    GameDetails:
+      MapName: 'Tup map 123'
+      LobbyCountdown: 10
+      WinnerCountdown: 3
+      ExplosionCountdownShort: 30
+      ExplosionCountdownLong: 60
+      PlayersNeeded: 2
+      MaxPlayers: 12
+    Locations:
+      LobbyLocation:
+        World: "world"
+        X: 0.5
+        Y: 60.0
+        Z: 0.5
+        Yaw: 0.0
+        Pitch: 0.0
+      GameLocation:
+        World: "world"
+        X: 0.5
+        Y: 60.0
+        Z: 0.5
+        Yaw: 0.0
+        Pitch: 0.0
+      SpectatorLocation:
+        World: "world"
+        X: 0.5
+        Y: 90.0
+        Z: 0.5
+        Yaw: 0.0
+        Pitch: 0.0

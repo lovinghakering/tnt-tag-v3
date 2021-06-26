@@ -1,0 +1,9 @@
+name: TntTag
+main: me.ObichamDaQmKir.tnttag.TntTag
+version: 1.0
+
+commands:
+  tt:
+  quickjoin:
+  leave:
+  debug:

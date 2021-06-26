@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TnTtag:jar">
+    <output-path>$PROJECT_DIR$/../minecraft-server/TntTag/plugins</output-path>
+    <root id="archive" name="tnt-tag.jar">
+      <element id="module-output" name="tnt-tag" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
